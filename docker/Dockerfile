@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y python2.7 git maven python-pip mysql-cl
     wget http://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.39.tar.gz && \
     tar -xvf mysql-connector-java-5.1.39.tar.gz && \
     cp ./mysql-connector-java-5.1.39/mysql-connector-java-5.1.39-bin.jar glassfish4/glassfish/domains/domain1/lib && \
-    git clone https://github.com/FIWARE-TMForum/business-ecosystem-rss.git
+    git clone https://github.com/caposseleDigicat/rss.git
 
 WORKDIR business-ecosystem-rss
 
